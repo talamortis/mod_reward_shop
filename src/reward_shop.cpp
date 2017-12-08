@@ -119,7 +119,7 @@ public:
             return false;
         }
 
-        std::transform(rewardcode.begin(), rewardcode.end(), rewardcode.begin(), toupper);
+        std::transform(rewardcode.begin(), rewardcode.end(), rewardcode.begin(), ::toupper);
 
         do
         {
