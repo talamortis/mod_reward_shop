@@ -10,4 +10,4 @@ elseif ( MINGW )
   )
 endif()
 
-install(FILES "${CMAKE_REWARD_SYSTEM_DIR}/conf/reward_shop.conf.dist" DESTINATION ${CONF_DIR})
+install(FILES "${CMAKE_REWARD_SHOP_DIR}/conf/reward_shop.conf.dist" DESTINATION ${CONF_DIR})
