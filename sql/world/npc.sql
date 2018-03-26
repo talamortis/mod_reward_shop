@@ -2,10 +2,10 @@
 --	CODEBOX - 90024
 -- ######################################################--
 SET
-@Entry 		:= 90024,
+@Entry 		:= 92000,
 @Model 		:= 16804, -- Elven Jeweler
-@Name 		:= "Retdream",
-@Title 		:= "Keeper of Codes",
+@Name 		:= "Talamortis",
+@Title 		:= "Code exchange",
 @Icon 		:= "Buy",
 @GossipMenu := 0,
 @MinLevel 	:= 80,
@@ -27,4 +27,4 @@ INSERT INTO creature_template (entry, modelid1, name, subname, IconName, gossip_
 
 -- NPC Text
 DELETE FROM `npc_text` WHERE `ID`=@Entry;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry, 'Greetings $N. Do you have a loot code to redeem?');
+INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry, 'Greetings $N. Do you have a code to redeem?');
