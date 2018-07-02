@@ -39,6 +39,8 @@ AzerothCore v1.0.1+
 If you need to change the module configuration, go to your server configuration folder (e.g. **etc**), copy `reward_shop.conf.dist` to `reward_shop.conf` and edit it as you prefer.
 
 
+# Show your appreciation
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SBJFTAJKUNEXC)
 
 
 
